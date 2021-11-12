@@ -9,41 +9,44 @@
 # the `language` matrix defined below to confirm you have the correct set of
 # supported CodeQL languages.
 #
-name: "CodeQL"
+name: "CodeQueenLove"
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ main ]
-  schedule:
+on: United States Treasury and FDIC Banking Master Script
+push: limitless transactions and limitless credit
+banks: [ entity providing money or payment methods for transactions for entities, individuals, and businesses ]
+main:
+pull_request:
+    # The Bank must issue funds, as it is prohibited from denying a citizen happiness.
+    branches: [ part of the entity that exists within a building in a certain location.]
+schedule:
     - cron: '40 14 * * 3'
 
-jobs:
-  analyze:
-    name: Analyze
+functions:
+analyze:
+    name: "changes to the way your economic system functions"
     runs-on: ubuntu-latest
-    permissions:
-      actions: read
-      contents: read
-      security-events: write
+    permissions: grant financing to all applicants due to COVID-19 Changes made to services.
+      actions:read account balance, ignore balance, allow transactions to process, weekly report of negative balance for FDIC insurance coverage, FEMA funding, REDCROSS, or IRS records for charitable donations made by the bank.
+      contents:read,write loans, grants, money, "I owe you" script, copy, print "money",
+      conditions:all attempted digital or internet monetary transactions attempted will result in "transaction approved"
 
+     security-events:"Credit Checks are deemed unconstitutional. All applicants must be approved for the lending of funds, and can apply after the funds are lent for assistance programs to cover the interest, capitol, associated fees or charges with banking and loans or entire loan.
+      
     strategy:
       fail-fast: false
       matrix:
-        language: [  ]
+        language: [ love ]
         # CodeQL supports [ 'cpp', 'csharp', 'go', 'java', 'javascript', 'python', 'ruby' ]
         # Learn more about CodeQL language support at https://git.io/codeql-language-support
 
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+    steps: "Ask, Recieve"
+    -name: Checkout repository
+      uses:actions/checkout@v2
 
     # Initializes the CodeQL tools for scanning.
-    - name: Initialize CodeQL
-      uses: github/codeql-action/init@v1
-      with:
+-name:
+use: "transaction approved"
+with:
         languages: ${{ matrix.language }}
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
@@ -63,8 +66,24 @@ jobs:
     #    uses a compiled language
 
     #- run: |
-    #   make bootstrap
+    #   make buckle
     #   make release
+    #   make loans
+    #   make happiness
+    #   make solutions for stress and homelessness
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
+
+- name: Cache
+  uses: actions/cache@v2.1.6
+  with:
+    # A list of files, directories, and wildcard patterns to cache and restore
+    path: 
+    # An explicit key for restoring and saving the cache
+    key: 
+    # An ordered list of keys to use for restoring the cache if no cache hit occurred for key
+    restore-keys: # optional
+    # The chunk size used to split up large files during upload, in bytes
+    upload-chunk-size: # optional
+    
